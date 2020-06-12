@@ -10,8 +10,31 @@ body {
   font-size: 16px;
 }
 header {
-  background-color: wheat;
   height: 130px;
+  display: flex;
+  justify-content: space-around;
+  /* border: solid 1px; */
+}
+.header-title {
+  font-size: 30px;
+  /* border: solid 1px; */
+  line-height: 130px;
+  margin-left: 100px;
+}
+ul {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+  /* border: solid 1px; */
+  line-height: 90px;
+  margin-left: 200px;
+}
+.list-title {
+  list-style: none;
+}
+.list-title-monosus {
+  list-style: none;
+  color: red;
 }
 .main {
   background-color: skyblue;
