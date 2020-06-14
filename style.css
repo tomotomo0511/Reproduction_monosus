@@ -50,7 +50,7 @@ body {
   width: 74%;
 }
 .main-contents {
-  border: solid 1px;
+  /* border: solid 1px; */
   text-align: center;
   position: relative;
 }
@@ -90,17 +90,21 @@ body {
   letter-spacing: 1px;
 }
 .main-contents-box {
-  border: solid 1px;
+  width: 82%;
+  /* border: solid 1px; */
   display: flex;
+  margin-left: 94px;
+  padding: 50px 0;
 }
 .main-contents-text {
-  width: 75%;
-  border: solid 1px;
+  width: 85%;
+  /* border: solid 1px; */
   margin: auto;
+  line-height: 28px;
 }
 .main-contents-contributor {
-  width: 25%;
-  border: solid 1px;
+  width: 15%;
+  /* border: solid 1px; */
 }
 .main-contents-contributor-image {
   height: 100px;
