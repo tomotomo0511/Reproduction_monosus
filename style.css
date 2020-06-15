@@ -54,6 +54,27 @@ body {
   text-align: center;
   position: relative;
 }
+.main-contents-title {
+  height: 40%;
+  width: 20%;
+  position: absolute;
+  top: -115px;
+  left: 140px;
+  background-color: white;
+  font-size: 50px;
+  font-weight: bold;
+  color: #454545;
+}
+.mono {
+  position: absolute;
+  width: 100%;
+  top: -60px;
+}
+.sasu {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+}
 .main-image-box {
   height: 24%;
   width: 82.6%;
