@@ -10,6 +10,7 @@ body {
   text-align: center;
   padding: 17px 15px;
   font-size: 16px;
+  color: #333333;
 }
 .header {
   height: 130px;
@@ -34,10 +35,14 @@ body {
 }
 .list-title {
   list-style: none;
+  color: #454545;
 }
 .list-title-monosus {
   list-style: none;
-  color: red;
+  color: darkred;
+  line-height: 90px;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .main {
   background-color: skyblue;
@@ -106,7 +111,8 @@ body {
 .main-image-creator {
   position: absolute;
   font-size: 14px;
-  top: 10px;
+  font-family: fantasy;
+  top: 21px;
   right: 0;
   letter-spacing: 1px;
 }
@@ -122,6 +128,7 @@ body {
   /* border: solid 1px; */
   margin: auto;
   line-height: 28px;
+  color: #454545;
 }
 .main-contents-contributor {
   width: 15%;
@@ -136,7 +143,7 @@ body {
   border-radius: 50%;
 }
 .main-contents-contributor-explanatory {
-
+  color: #454545;
 }
 .main-right {
   background-color: white;
