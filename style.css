@@ -76,12 +76,12 @@ body {
 }
 .main-image-box {
   height: 24%;
-  width: 82.6%;
+  width: 82.45%;
   background-color: black;
   position: absolute;
   opacity: 0.5;
   bottom: 0;
-  left: 92px;
+  left: 93px;
 }
 .main-image-title {
   position: absolute;
