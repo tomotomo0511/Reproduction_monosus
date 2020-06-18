@@ -30,8 +30,13 @@ body {
   letter-spacing: 2px;
 }
 .list-title {
+  height: 55px;
   list-style: none;
   color: #454545;
+  text-decoration: none;
+}
+.list-title:hover {
+  border-bottom: solid 2px #c9171e;
 }
 .list-title-monosus {
   list-style: none;
@@ -39,6 +44,7 @@ body {
   line-height: 90px;
   font-size: 25px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
 }
 .main {
   height: 800px;
