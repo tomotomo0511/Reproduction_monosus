@@ -107,6 +107,9 @@ body {
 }
 .main-image-subtitle {
   font-size: 18px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
 }
 .main-image-creator {
   position: absolute;
