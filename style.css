@@ -118,6 +118,8 @@ body {
   top: 21px;
   right: 0;
   letter-spacing: 1px;
+  color: white;
+  text-decoration: none;
 }
 .main-contents-box {
   width: 82%;
