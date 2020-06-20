@@ -60,12 +60,6 @@ body {
   display: flex;
   justify-content: space-around;
 }
-/* .header-title {
-  font-size: 38px;
-  line-height: 130px;
-  font-weight: bold;
-  color: #454545;
-} */
 .header-list {
   width: 750px;
   display: flex;
