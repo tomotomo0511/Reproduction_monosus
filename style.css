@@ -12,22 +12,66 @@ body {
   padding: 17px 15px;
   color: #333333;
 }
+#header {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+  border-bottom: solid 1px #cccccc;
+  background-color: white;
+}
+#header-title {
+  font-size: 38px;
+  line-height: 60px;
+  font-weight: bold;
+  color: #454545;
+  margin-right: 100px;
+  text-decoration: none;
+}
+#header-list {
+  width: 750px;
+  display: flex;
+  justify-content: space-around;
+  line-height: 30px;
+  margin-left: 180px;
+  letter-spacing: 2px;
+}
+#list-title {
+  height: 23px;
+  list-style: none;
+  color: #454545;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+#list-title-monosus {
+  list-style: none;
+  color: #c9171e;
+  line-height: 25px;
+  font-size: 27px;
+  text-decoration: none;
+}
+#list-title:hover {
+  border-bottom: solid 2px #c9171e;
+}
 .header {
   height: 130px;
   display: flex;
   justify-content: space-around;
 }
-.header-title {
-  font-size: 30px;
+/* .header-title {
+  font-size: 38px;
   line-height: 130px;
-  margin-left: 100px;
-}
+  font-weight: bold;
+  color: #454545;
+} */
 .header-list {
-  width: 800px;
+  width: 750px;
   display: flex;
   justify-content: space-around;
   line-height: 90px;
-  margin-left: 200px;
+  margin-left: 540px;
   letter-spacing: 2px;
 }
 .list-title {

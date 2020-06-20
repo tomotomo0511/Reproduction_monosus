@@ -1,3 +1,13 @@
+// $(function() {
+//   alert("jQueryが正常に動作しています！");
+// });
+
 $(function() {
-  alert("jQueryが正常に動作しています！");
+  $('#header').hide();
+});
+
+$(function() {
+  $(window).scroll(function() {
+    $('#header').show();
+  });
 });
