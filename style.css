@@ -344,6 +344,29 @@ body {
   color: #999999;
   padding: 10px 0;
 }
+.primary-foot {
+  display: flex;
+  width: 55%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 90px 0;
+}
+.primary-foot-btns {
+  width: 100%;
+  padding: 10px 25px;
+  border: solid 1px #ccc;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 5px;
+}
+.primary-foot-btns:hover {
+  background-color: whitesmoke;
+  transition: 0.3s;
+} 
+.primary-foot-btn {
+  color: #1d5ab6;
+  text-decoration: none;
+}
 footer {
   background-color: wheat;
   height: 200px;
