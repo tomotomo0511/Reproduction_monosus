@@ -5,8 +5,13 @@ Reproduction-monosus
 株式会社モノサス様のHPの模写です。
 
 ## 【参考画像1】
-![モノサス_模写１](https://user-images.githubusercontent.com/60679433/85197513-6731e200-b31c-11ea-9e70-54a081042f53.jpg)
+![モノサス_模写１](https://user-images.githubusercontent.com/60679433/85222467-30c89580-b3f6-11ea-97e1-d464b049b288.jpg)
 ## 【参考画像2】
-![モノサス_模写３](https://user-images.githubusercontent.com/60679433/85197530-816bc000-b31c-11ea-9f05-ea2ad54fd998.jpg)
+![モノサス_模写２](https://user-images.githubusercontent.com/60679433/85222474-41790b80-b3f6-11ea-95a8-b379f08fc2e3.jpg)
 ## 【参考画像3】
-![モノサス_模写２](https://user-images.githubusercontent.com/60679433/85197540-90527280-b31c-11ea-8dd2-2187b21baded.jpg)
+![モノサス_模写３](https://user-images.githubusercontent.com/60679433/85222485-52c21800-b3f6-11ea-8f6c-e94e6b70b321.jpg)
+## 【参考画像4】
+![モノサス_模写４](https://user-images.githubusercontent.com/60679433/85222493-666d7e80-b3f6-11ea-8bcc-6be0699c8db3.jpg)
+
+##　【全体GIF画像】
+https://gyazo.com/66169062e1013f4eee25ddd0e25d02f6
