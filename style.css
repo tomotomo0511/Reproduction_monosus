@@ -323,9 +323,20 @@ body {
   width: auto;
   margin: auto;
 }
+.primary-images-boxs {
+  height: 140px;
+  width: 250px;
+  background-color: #1d5ab6;
+  overflow: hidden;
+}
 .primary-images {
   height: 140px;
   width: 255px;
+  transition: 0.5s;
+  display: block;
+}
+.primary-images:hover {
+  transform: scale(1.1, 1.1);
 }
 .primary-content-box {
   height: 155px;
