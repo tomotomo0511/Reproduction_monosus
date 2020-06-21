@@ -14,4 +14,4 @@ Reproduction-monosus
 ![モノサス_模写４](https://user-images.githubusercontent.com/60679433/85222493-666d7e80-b3f6-11ea-8bcc-6be0699c8db3.jpg)
 
 ##　【全体GIF画像】
-https://gyazo.com/66169062e1013f4eee25ddd0e25d02f6
+https://gyazo.com/e96c39e0dc158b8c88b8549c716a34cb
