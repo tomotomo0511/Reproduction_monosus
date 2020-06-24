@@ -11,6 +11,7 @@ body {
   text-align: center;
   padding: 17px 15px;
   color: #333333;
+  margin-top: 0;
 }
 #header {
   position: fixed;
@@ -21,17 +22,12 @@ body {
   border-bottom: solid 1px #cccccc;
   background-color: white;
 }
-#header-title {
+.header-title {
+  font-size: 38px;
   font-weight: bold;
   color: #454545;
-  margin-left: 40px;
-  margin-bottom: 40px;
   text-decoration: none;
-  background-color: #c9171e;
-}
-.header-title {
-  background-color: #1d5ab6;
-  font-size: 38px;
+  line-height: 15px;
 }
 #header-lists {
   width: 750px;
@@ -130,38 +126,45 @@ body {
   background-color: black;
   position: absolute;
   opacity: 0.5;
-  bottom: 0;
+  bottom: 6px;
   left: 93px;
 }
 .main-image-title {
   position: absolute;
-  bottom: 35px;
-  left: 110px;
-  color: white;
+  bottom: 45px;
+  left: 115px;
   font-size: 28px;
+}
+.main-image-title-link {
+  text-decoration: none;
+  color: white;
 }
 .main-image-subbox {
   width: 78%;
   position: absolute;
-  bottom: 0;
-  left: 110px;
+  bottom: 10px;
+  left: 115px;
   display: flex;
   justify-content: space-between;
   color: white;
 }
 .main-image-subtitle {
   font-size: 18px;
+  display: inline-block;
+}
+.main-image-subtitle-link {
   color: white;
   text-decoration: none;
-  display: inline-block;
 }
 .main-image-creator {
   position: absolute;
   font-size: 14px;
   font-family: fantasy;
-  top: 21px;
+  top: 5px;
   right: 0;
   letter-spacing: 1px;
+}
+.main-image-creator-link {
   color: white;
   text-decoration: none;
 }
@@ -205,6 +208,7 @@ body {
   text-align: center;
   margin-left: 250px;
   border-radius: 5px;
+  margin-bottom: 50px;
 }
 .main-contents-read-more-area:hover {
   background-color: whitesmoke;
@@ -218,30 +222,34 @@ body {
   height: auto; 
   width: 26%;
   border-left: solid 1px #cccccc;
+  position: relative;
+  margin-bottom: 60px;
 }
 .main-right-head {
   width: 53.5%;
-  height: 56%;
+  height: 54%;
   border-bottom: solid 1px #cccccc;
   display: flex;
   margin-left: 40px;
   color: #454545;
 }
 .main-right-title-left {
-  width: 40%;
   height: auto;
+  width: auto;
   font-size: 34px;
   font-weight: bold;
   writing-mode: vertical-lr;
-  margin-left: 35px;
+  position: absolute;
 }
 .main-right-title-right {
   width: 40%;
   height: auto;
+  width: auto;
   font-size: 34px;
   font-weight: bold;
   writing-mode: vertical-lr;
-  margin-top: 30px;
+  margin: 40px 0px 0 100px;
+  position: absolute;
 }
 .main-right-foot {
   height: 41.6%;
@@ -258,23 +266,23 @@ body {
   font-size: 18px;
   font-weight: bold;
   color: #454545;
-  padding: 10px 0;
 }
 .main-right-foot-text {
   font-size: 14px;
   color: #454545;
-  margin-top: 8px;
 }
 .main-right-foot-btn {
+  position: absolute;
+}
+.instagram-link {
+  border-radius: 5px;
   padding: 14px 46.5px;
   background-color: #eae4bd;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 0;
+  text-decoration: none;
   font-size: 14px;
   color: #454545;
 }
-.main-right-foot-btn:hover {
+.instagram-link:hover {
   background-color: #d8d2ae;
   transition: 0.3s;
 }
@@ -303,7 +311,7 @@ body {
   font-size: 37px;
   font-weight: bold;
   color: #333333;
-  padding: 0 80px 0 0;
+  margin: 0 50px 50px 0;
 }
 .primary-head-right {
   background-size: contain;
@@ -350,7 +358,6 @@ body {
 .primary-content-post-date {
   font-size: 14px;
   color: #999999;
-  padding: 10px 0;
 }
 .primary-content-title {
   font-size: 14px;
@@ -358,19 +365,16 @@ body {
 .primary-content-genre {
   font-size: 14px;
   color: #999999;
-  padding: 10px 0;
 }
 .primary-foot {
   display: flex;
-  width: 55%;
+  width: 50%;
   justify-content: space-evenly;
   margin: auto;
   padding: 90px 0;
 }
 .primary-foot-btns {
   width: 100%;
-  padding: 10px 25px;
-  border: solid 1px #ccc;
   font-size: 14px;
   text-align: center;
   border-radius: 5px;
@@ -382,6 +386,9 @@ body {
 .primary-foot-btn {
   color: #1d5ab6;
   text-decoration: none;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  padding: 15px 55px;
 }
 footer {
   height: 200px;
@@ -412,5 +419,5 @@ footer {
   text-align: center;
   font-size: 12px;
   color: #454545;
-  line-height: 70px;
+  line-height: 100px;
 }
