@@ -10,8 +10,14 @@ body {
   background-color: #f7f7f7;
   text-align: center;
   padding: 17px 15px;
-  color: #333333;
   margin-top: 0;
+}
+.header-information-link {
+  color: #333333;
+  text-decoration: none;
+}
+.header-information-link:hover {
+  border-bottom: solid 1px;
 }
 #header {
   position: fixed;
@@ -379,7 +385,7 @@ body {
   text-align: center;
   border-radius: 5px;
 }
-.primary-foot-btns:hover {
+.primary-foot-btn:hover {
   background-color: whitesmoke;
   transition: 0.3s;
 } 
