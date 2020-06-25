@@ -1,11 +1,11 @@
+/* -----------以下リセットCSS--------------------- */
 body {
   margin: 0 auto;
-  height: auto;
-  width: 100vw;
+  width: 100%;
   font-family: "游ゴシック体", "Yu Gothic",YuGothic,"メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic","Lato", "tahoma",sans-serif;
 }
-/* -----------⬆リセットCSS⬆--------------------- */
 
+/* ----------以下header---------- */
 .header-information {
   background-color: #f7f7f7;
   text-align: center;
@@ -34,6 +34,30 @@ body {
   color: #454545;
   text-decoration: none;
   line-height: 15px;
+}
+.header-main-box {
+  height: 25%;
+  width: 202px;
+  position: absolute;
+  top: 115px;
+  left: 160px;
+  background-color: white;
+  font-size: 40px;
+  font-weight: bold;
+  color: #454545;
+  z-index: 1;
+}
+.mono {
+  position: absolute;
+  width: 100%;
+  top: -55px;
+  left: 20px;
+}
+.sasu {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  left: 20px;
 }
 #header-lists {
   width: 750px;
@@ -93,47 +117,29 @@ body {
   font-size: 25px;
   text-decoration: none;
 }
-.main-content {
+
+/* ----------以下section---------- */
+section {
   height: auto;
   display: flex;
 }
-.main-left {
+article {
   height: 100%;
   width: 74%;
+  margin-left: 50px;
 }
 .main-contents {
   text-align: center;
   position: relative;
 }
-.main-contents-title {
-  height: 40%;
-  width: 20%;
-  position: absolute;
-  top: -115px;
-  left: 140px;
-  background-color: white;
-  font-size: 50px;
-  font-weight: bold;
-  color: #454545;
-}
-.mono {
-  position: absolute;
-  width: 100%;
-  top: -60px;
-}
-.sasu {
-  position: absolute;
-  width: 100%;
-  top: 20px;
-}
 .main-image-box {
   height: 24%;
-  width: 82.45%;
+  width: 85.4%;
   background-color: black;
   position: absolute;
   opacity: 0.5;
   bottom: 6px;
-  left: 93px;
+  left: 75px;
 }
 .main-image-title {
   position: absolute;
@@ -177,13 +183,13 @@ body {
 .main-contents-box {
   width: 82%;
   display: flex;
-  margin-left: 94px;
-  padding: 50px 0;
+  margin-left: 75px;
+  padding: 30px 0;
 }
 .main-contents-text {
-  width: 85%;
+  width: 100%;
   margin: auto;
-  line-height: 28px;
+  line-height: 30px;
   color: #454545;
 }
 .main-contents-contributor {
@@ -233,10 +239,10 @@ body {
 }
 .main-right-head {
   width: 53.5%;
-  height: 54%;
+  height: 59%;
   border-bottom: solid 1px #cccccc;
   display: flex;
-  margin-left: 40px;
+  margin-left: 50px;
   color: #454545;
 }
 .main-right-title-left {
@@ -250,26 +256,23 @@ body {
 .main-right-title-right {
   width: 40%;
   height: auto;
-  width: auto;
   font-size: 34px;
   font-weight: bold;
   writing-mode: vertical-lr;
   margin: 40px 0px 0 100px;
-  position: absolute;
 }
 .main-right-foot {
-  height: 41.6%;
-  width: 53.5%;
-  margin: 30px 0 0 40px;
-  position: relative;
+  height: auto;
+  width: auto;
 }
 .main-right-foot-image {
+  margin-top: 25px;
   height: 200px;
   width: 200px;
 }
 .main-right-foot-title {
-  text-align: center;
   font-size: 18px;
+  margin-left: 40px;
   font-weight: bold;
   color: #454545;
 }
@@ -277,18 +280,19 @@ body {
   font-size: 14px;
   color: #454545;
 }
-.main-right-foot-btn {
-  position: absolute;
-}
 .instagram-link {
-  border-radius: 5px;
-  padding: 14px 46.5px;
-  background-color: #eae4bd;
   text-decoration: none;
   font-size: 14px;
   color: #454545;
 }
-.instagram-link:hover {
+.instagram-btn {
+  width: 57%;
+  border-radius: 5px;
+  padding: 12px;
+  text-align: center;
+  background-color: #eae4bd;
+}
+.instagram-btn:hover {
   background-color: #d8d2ae;
   transition: 0.3s;
 }
@@ -396,6 +400,9 @@ body {
   border-radius: 5px;
   padding: 15px 55px;
 }
+
+/* ----------以下footer---------- */
+
 footer {
   height: 200px;
   border-top: solid 1px #ccc;
